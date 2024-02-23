@@ -165,7 +165,7 @@ function Cards() {
                       <h6>Zeya Mustafa</h6>
                     </div>
                     <div className="btn">
-                      <ShareIcon />
+                    <ShareIcon style={{ color: 'white' }} />
                     </div>
                   </div>
                 </div>
@@ -230,7 +230,7 @@ function Cards() {
                       <h6>Zeya Mustafa</h6>
                     </div>
                     <div className="btn">
-                      <ShareIcon />
+                    <ShareIcon style={{ color: 'white' }} />
                     </div>
                   </div>
                 </div>
@@ -290,7 +290,7 @@ function Cards() {
                       <h6>Zeya Mustafa</h6>
                     </div>
                     <div className="btn">
-                      <ShareIcon />
+                    <ShareIcon style={{ color: 'white' }} />
                     </div>
                   </div>
                 </div>
