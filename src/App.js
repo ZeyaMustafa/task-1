@@ -7,7 +7,7 @@ import Cards from './Cards';
 
 function App() {
   return (
-    <div>
+    <div className='application'>
     <Header />
     <Body/>
     <Cards/>

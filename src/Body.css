@@ -3,8 +3,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 175px 0; 
+    padding-bottom: 200px;
+    padding-top: 20px; 
+    min-height: 450px;
   }
+
+  
 
   .back_arrow{
     height: 20px;
@@ -18,3 +22,5 @@
   .card{
     width: 45rem;
   }
+
+  

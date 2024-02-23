@@ -42,7 +42,7 @@ function Cards() {
         <div class="container">
           <div class="row">
             <div class="col-9 posts-center position-relative">
-              <div class="card mt-lg-5">
+              <div class="card mt-lg-5 rounded">
                 <img
                   src="https://dont-copy.netlify.app/assets/nature-rDsfVg8l.jpg"
                   class="card-img-top"
@@ -101,7 +101,7 @@ function Cards() {
                       <h6>Zeya Mustafa</h6>
                     </div>
                     <div className="btn">
-                      <ShareIcon />
+                      <ShareIcon style={{ color: 'white' }} />
                     </div>
                   </div>
                 </div>
@@ -336,40 +336,60 @@ function Cards() {
                 <div className="d-flex flex-column gap-4">
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="d-flex align-items-center gap-2">
-                      <img className="rounded-circle" src="" alt="Pic" />
+                      <img className="rounded-circle" 
+                      height='40px'
+                      width='40px'
+                      src="https://media.licdn.com/dms/image/D4D03AQHkpwc0EJA4OQ/profile-displayphoto-shrink_800_800/0/1689261810543?e=1714003200&v=beta&t=b_rZXjV8kh-4fvYDWvQm1tkaPJXmJWr3kj48l5PH8Gw"
+ 
+                      alt="Pic" />
                       <div className="text-wrapper">Zeya</div>
                     </div>
-                    <a className="btn follow rounded-5" href="/">
+                    <a className="btn btn-outline-primary rounded-5" href="/">
                       Follow
                     </a>
                   </div>
 
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="d-flex align-items-center gap-2">
-                      <img className="rounded-circle" alt="Pic" />
+                    <img className="rounded-circle" 
+                      height='40px'
+                      width='40px'
+                      src="https://media.licdn.com/dms/image/D4D03AQHkpwc0EJA4OQ/profile-displayphoto-shrink_800_800/0/1689261810543?e=1714003200&v=beta&t=b_rZXjV8kh-4fvYDWvQm1tkaPJXmJWr3kj48l5PH8Gw"
+ 
+                      alt="Pic" />
                       <div className="text-wrapper">Mustafa</div>
                     </div>
-                    <a className="btn follow rounded-5" href="/">
+                    <a className="btn btn-outline-primary rounded-5" href="/">
                       Follow
                     </a>
                   </div>
 
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="d-flex align-items-center gap-2">
-                      <img className="rounded-circle" alt="Pic" />
+                    <img className="rounded-circle" 
+                      height='40px'
+                      width='40px'
+                      src="https://media.licdn.com/dms/image/D4D03AQHkpwc0EJA4OQ/profile-displayphoto-shrink_800_800/0/1689261810543?e=1714003200&v=beta&t=b_rZXjV8kh-4fvYDWvQm1tkaPJXmJWr3kj48l5PH8Gw"
+ 
+                      alt="Pic" />
                       <div className="text-wrapper">Mohammad</div>
                     </div>
-                    <a className="btn follow rounded-5" href="/">
+                    <a className="btn btn-outline-primary rounded-5" href="/">
                       Follow
                     </a>
                   </div>
 
                   <div className="d-flex align-items-center justify-content-between">
                     <div className="d-flex align-items-center gap-2">
-                      <img className="rounded-circle" alt="Pic" />
+                    <img className="rounded-circle" 
+                      height='40px'
+                      width='40px'
+                      src="https://media.licdn.com/dms/image/D4D03AQHkpwc0EJA4OQ/profile-displayphoto-shrink_800_800/0/1689261810543?e=1714003200&v=beta&t=b_rZXjV8kh-4fvYDWvQm1tkaPJXmJWr3kj48l5PH8Gw"
+ 
+                      alt="Pic" />
                       <div className="text-wrapper">Zain</div>
                     </div>
-                    <a className="btn follow rounded-5" href="/">
+                    <a className="btn btn-outline-primary rounded-5" href="/">
                       Follow
                     </a>
                   </div>
